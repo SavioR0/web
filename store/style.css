@@ -1,0 +1,65 @@
+.center{
+    text-align: center;
+}
+
+.bg{
+    display:block;
+    text-align: center;
+    background-color: azure;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 1px;
+    
+}
+
+.form_login{
+    max-width: 500px;
+    margin: 0 auto;
+    vertical-align: baseline;
+}
+
+.fields{
+    width: 300px;
+    border-radius: 5px;
+}
+
+.buttom_enter{
+    width: 300px;
+    background-color: white;
+    border-radius: 5px;
+    padding-top: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* Home page */
+.margin{
+    box-sizing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.table{
+    width: 100%;
+}
+
+
+.options{
+    margin: 10 auto;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.a {
+    font-family: Helvetica;
+    text-decoration: none;
+    color: black;
+}
+
+.home{
+    width: 90vw;
+    height: 100vh;
+    min-height: max-content;
+}

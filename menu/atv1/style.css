@@ -1,0 +1,43 @@
+.menu{
+    list-style: none;
+    border: 1px solid gray;
+    float: left;
+}
+
+.menu li{
+    position: relative;
+    float: left;
+    background: orange;
+    border: 1px solid black;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block;
+}
+
+.menu li a:hover{
+    background: grey;
+    color: white;
+    -moz-box-shadow: 0 3px 10px 0 grey;
+    -webkit-box-shadow: 0 3px 10px 0 grey;
+    text-shadow: 0px 0px 5px white;
+}
+
+.menu li ul{
+    position:obsolute;
+    top: 25px;
+    left: 20px;
+    background-color: orange;
+    display: none;
+}
+
+.menu li:hover ul, .menu li.over ul{display: block};
+
+.menu li ul li{
+    border: 1px solid #AAAAAA;
+    display: block;
+    width: 150px;
+}

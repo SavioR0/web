@@ -1,0 +1,17 @@
+.table{
+    max-width: 500px;
+    margin: 0 auto;
+    vertical-align: baseline;
+}
+
+.button{
+    height: 40px;
+    width: 100px;
+}
+
+.visor{
+    height: 100px;
+    width: 400px;
+    text-align: end;
+    font-size: 30px;
+}

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <form method="get" oninput="output.value = parseInt(number.value)">
+        <fieldset>
+            <legend for="Nome"> Nome: </legend>
+            <input type="text"/>
+        </fieldset>
+        <fieldset>
+            <legend for="email"> Email: </legend>
+            <input type="email"/>
+        </fieldset>
+        <fieldset>
+            <legend for="password"> Senha: </legend>
+            <input type="password"/>
+        </fieldset>
+        <fieldset>
+            <legend for="button"> Input Button: </legend>
+            <input type="button" value="Teste" />
+        </fieldset>
+        <fieldset>
+            <legend for="button"> Button: </legend>
+            <button type="submit">Teste</button>
+        </fieldset>
+        <fieldset>
+        </legend>
+            <legend for="male"> Masculino </legend>
+            <input type="checkbox"/>
+                
+            <legend for="female"> Feminino</legend>
+            <input type="checkbox"/>
+        </fieldset>
+        <fieldset>
+            <legend for="color"> Color: </legend>
+            <input type="color"/>
+        </fieldset>
+        <fieldset>
+            <legend for="data"> Data: </legend>
+            <input type="date"/>
+        </fieldset>
+
+        <fieldset>
+            <legend for="datetime"> DateTimeLocal: </legend>
+            <input type="datetime-local"/>
+        </fieldset>
+        <fieldset>
+            <legend for="file"> File: </legend>
+            <input type="file"/>
+        </fieldset>
+        <fieldset>
+            <legend for="hidden"> Escondido: </legend>
+            <input type="hidden"/>
+        </fieldset>
+        <fieldset>
+            <legend for="image"> image: </legend>
+            <input type="image"/>
+        </fieldset>
+        <fieldset>
+            <legend for="month"> Mês: </legend>
+            <input type="month"/>
+        </fieldset>
+        <fieldset>
+            <legend for="number"> Numero: </legend>
+            <input type="number" name="number"/>
+        </fieldset>
+        <fieldset>
+            <legend for="outputnumber"> Output (Numero): </legend>
+            <output name="output"></output>
+        </fieldset>
+        <fieldset>
+            <legend for="radio"> Radio: </legend>
+            <input type="radio"/>
+        </fieldset>
+        <fieldset>
+            <legend for="range"> Range: </legend>
+            <input type="range"/>
+        </fieldset>
+        <fieldset>
+            <legend for="reset"> Reset: </legend>
+            <input type="reset"/>
+        </fieldset>
+        <fieldset>
+            <legend for="search"> Pesquisa: </legend>
+            <input type="search"/>
+        </fieldset>
+        <fieldset>
+            <legend for="submit"> Submit: </legend>
+            <input type="submit"/>
+        </fieldset>
+        <fieldset>
+            <legend for="tel"> Tel: </legend>
+            <input type="tel"/>
+        </fieldset>
+        <fieldset>
+            <legend for="text"> Text: </legend>
+            <input type="text"/>
+        </fieldset>
+        <fieldset>
+            <legend for="time"> Time: </legend>
+            <input type="time"/>
+        </fieldset>
+        <fieldset>
+            <legend for="url"> Url: </legend>
+            <input type="url"/>
+        </fieldset>
+        <fieldset>
+            <legend for="week"> Week: </legend>
+            <input type="week"/>
+        </fieldset>
+        <fieldset>
+            <legend for="textarea"> TextArea: </legend>
+            <textarea id="textarea"></textarea>
+        </fieldset>
+        <fieldset>
+            <legend for="select"> Select: </legend>
+            <select name="select" id="select">
+                <option value = "valor1"> Valor 1</option>
+                <option value = "valor1"> Valor 2</option>
+                <option value = "valor1"> Valor 3</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend for="optgroup"> Optgroup: </legend>
+            <select>
+                <optgroup label="Grupo 1">
+                  <option>Valor 11</option>
+                </optgroup>
+                <optgroup label="Grupo 2">
+                  <option>Valor 21</option>
+                  <option>Valor 22</option>
+                  <option>Valor 23</option>
+                </optgroup>
+                <optgroup label="Grupo 3">
+                  <option>Valor 31</option>
+                  <option>Valor 32</option>
+                  <option>Valor 33</option>
+                </optgroup>
+              </select>              
+        </fieldset>
+        <fieldset>
+            <legend>
+                EU estou colocando conteúdo na legend
+            </legend>
+        </fieldset>
+        
+    </form>
+</body>
+</html>

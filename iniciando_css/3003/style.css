@@ -1,0 +1,115 @@
+/* Arial, sans-serif · Helvetica, */
+p.fonte1{
+    font-family: Arial;
+}
+
+p.fonte2{
+    font-family: Georgia;
+}
+
+p.fonte3{
+    font-family: Helvetica;
+}
+
+p{
+    font-size: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+p.fonte1.bordered{
+    border:1px;
+    border-style: solid;
+    border-top: red;
+    border-left: blue;
+    border-bottom: red;
+    border-right: blue;
+    border-top-style: solid;
+    border-left-style: solid;
+    border-bottom-style: solid;
+    border-right-style: solid;
+}
+p.fonte2.bordered{
+    border:1px;
+    border-style: solid;
+    border-top: purple;
+    border-left: blue;
+    border-bottom: purple;
+    border-right: blue;
+    border-top-style: solid;
+    border-left-style: solid;
+    border-bottom-style: solid;
+    border-right-style: solid;
+}
+p.fonte3.bordered{
+    border:1px;
+    border-style: solid;
+    border-top: green;
+    border-left: blue;
+    border-bottom: green;
+    border-right: blue;
+    border-top-style: solid;
+    border-left-style: solid;
+    border-bottom-style: solid;
+    border-right-style: solid;
+}
+
+.colorText1{
+    color:red;
+    letter-spacing: normal;
+}
+.colorText2{
+    color:green;
+    letter-spacing: .2em;
+}
+.colorText3{
+    color:blue;
+    letter-spacing: .5em;
+}
+
+.MaiMin1{
+    text-transform: capitalize;
+}
+.MaiMin2{
+    text-transform: uppercase;
+}
+.MaiMin3{
+    text-transform: lowercase;
+}
+
+.align1{
+    text-align: center;
+}
+
+.align2{
+    text-align: right;
+}
+
+.align3{
+    text-align: left;
+}
+
+.size1{
+    font-size: larger;
+    background-color: red;
+}
+.size2{
+    font-size: medium;
+    background-color: blue;
+}
+
+.size3{
+    font-size:small;
+    background-color: green;
+}
+
+.buttom{
+    width: 200px; 
+    height: 200px;
+
+}
+
+
+

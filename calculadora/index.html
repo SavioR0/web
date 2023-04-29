@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="controle.js"></script>
+
+    <title>Document</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+
+</head>
+<body>
+    <table class="table">
+        <tr >
+            <td colspan="4"><h1>Calculadora</h1> </td>
+        </tr>
+        <tr><td colspan="4"><textarea class="visor" name="Visor" id="visor" cols="10" rows="1"></textarea></td></tr>
+        <tr>
+            <td><input class="button" type="button" value="AC" onclick="Pressed('AC')" ></td>
+            <td><input class="button" type="button" value="DEL" onclick="Pressed('DEL')"  ></td>
+            <td><input class="button" type="button" value="%" onclick="Pressed('%')"  ></td>
+            <td><input class="button" type="button" value="/" onclick="Pressed('/')" ></td>
+        </tr>
+        <tr>
+            <td><input class="button" type="button" value="7" onclick="Pressed('7');" ></td>
+            <td><input class="button" type="button" value="8" onclick="Pressed('8')" ></td>
+            <td><input class="button" type="button" value="9" onclick="Pressed('9')"  ></td>
+            <td><input class="button" type="button" value="x" onclick="Pressed('x')" ></td>
+        </tr>
+        <tr>
+            <td><input class="button" type="button" value="4" onclick="Pressed('4')" ></td>
+            <td><input class="button" type="button" value="5" onclick="Pressed('5')" ></td>
+            <td><input class="button" type="button" value="6" onclick="Pressed('6')"  ></td>
+            <td><input class="button" type="button" value="-" onclick="Pressed('-')" ></td>
+        </tr>
+        <tr>
+            <td><input class="button" type="button" value="1" onclick="Pressed('1')" ></td>
+            <td><input class="button" type="button" value="2" onclick="Pressed('2')" ></td>
+            <td><input class="button" type="button" value="3" onclick="Pressed('3')"  ></td>
+            <td><input class="button" type="button" value="+" onclick="Pressed('+')" ></td>
+        </tr>
+        <tr>
+            <td><input class="button" type="button" value=" " onclick="Pressed('')" ></td>
+            <td><input class="button" type="button" value="0" onclick="Pressed('0')" ></td>
+            <td><input class="button" type="button" value="," onclick="Pressed('.')"  ></td>
+            <td><input class="button" type="button" value="=" onclick="Pressed('=')" ></td>
+        </tr>
+    </table>
+</body>
+</html>

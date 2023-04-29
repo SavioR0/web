@@ -1,0 +1,84 @@
+h1, h2, h3, h4 { color: blue}
+
+h1{
+    font-size: 10pt;
+}
+h2{font-size: 16pt;}
+h3{font-size: 15pt;}
+h4{font-size: 17pt;}
+h5{font-size: 12pt;}
+h6{font-size: 11pt;}
+
+p{
+    font-size: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+a:link{
+    color: pink;
+} 
+a:hover{
+    color: red; font-size: 20px;
+}
+/* a:visited{color: grey;} */
+
+
+p.minhaClasse::first-letter{
+    font-size: 20pt;
+    font-weight: bold;
+    border:solid 1px black;
+    padding: 1px;
+
+}
+
+p.bordered{
+    border: 1px;
+    border-collapse: no;
+    border-spacing: 1px;
+    border-top: 1px;
+    border-right: 1px;
+    border-bottom: 1px;
+    border-left: 1px;
+    border-color: red;
+    border-top-color: blue;
+    border-right-color: black;
+    border-bottom-color: yellow;
+    border-left-color: pink;
+    border-style: dashed;
+    border-top-style: solid;
+    border-right-style: dashed;
+    border-bottom-style: solid;
+    border-left-style: dashed;
+    border-width: 1px;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+}
+
+p.left{text-align: left;}
+p.right{text-align: right;}
+p.center{text-align: center;}
+p.just{text-align: justify;}
+
+.baseline{vertical-align: baseline;}
+.sub{vertical-align: sub;}
+.super{vertical-align: super;}
+.top{vertical-align: top;}
+.text-top{vertical-align: text-top;}
+.middle{vertical-align: middle;}
+.bottom{vertical-align: bottom;}
+.text-bottom{vertical-align: text-bottom;}
+.lenght{vertical-align: .5em;}
+.percentage{vertical-align: -50%;}
+
+.normal{letter-spacing: normal;}
+.tight{letter-spacing: -.2em;}
+.loose{letter-spacing: .2em;}
+
+.normal{text-transform: none;}
+.initcaps{text-transform: capitalize;}
+.upper{text-transform: uppercase;}
+.lower{text-transform: lowercase;}
