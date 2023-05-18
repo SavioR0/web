@@ -9,15 +9,7 @@ function Pessoa(nome, email, telefone) {
 
 var listaPessoas = []
 
-function Proximo() { 
-    if(elementos>0 && pagina<(elementos-1)){
-        pagina++
-        Exibir()
-    }
-    else{
-        alert("Não existe uma proxima pagina")
-    }
-}
+
 
 
 function Cadastrar() {
@@ -46,14 +38,21 @@ function Cadastrar() {
             botao_Ant.class = "anterior"
             botao_Ant.setAttribute("onclick","Anterior()")
             botao_Ant.textContent = "Anterior"
-            formulario.appendChild(botao_Ant)
+            formulario.appendChild(botao_Ant);
 
             var botao_Prox = document.createElement("button");
             botao_Prox.type = 'button';   
             botao_Prox.class = "proximo"
             botao_Prox.setAttribute("onclick","Proximo()")
             botao_Prox.textContent = "Proximo"
-            formulario.appendChild(botao_Prox)   
+            formulario.appendChild(botao_Prox);
+
+            var botao_delete = document.createElement("button");
+            botao_delete.type = 'button';
+            botao_delete.className = "apagar";
+            botao_delete.setAttribute("onclick", "Delete()");
+            botao_delete.textContent = "Apagar";
+            formulario.appendChild(botao_delete);
             
             var tabela = document.createElement("table")
             tabela.id = "tabelaid"
@@ -85,7 +84,6 @@ function Cadastrar() {
         linha.appendChild(coluna2)
         aux_Tabela.appendChild(linha)
         
-        
         elementos++
         pagina = -1
     }
@@ -105,6 +103,26 @@ function Limpar() {
     document.getElementById("nomeid").value = "";
     document.getElementById("telefoneid").value = "";
     document.getElementById("emailid").value = "";
+}
+
+function Delete() { 
+    if(pagina != -1){
+        var tabela = document.getElementById("tabelaid");
+        tabela.deleteRow(pagina+1);
+        listaPessoas.splice(pagina, 1);
+        elementos--;
+        pagina--;   
+    }
+}
+
+function Proximo() { 
+    if(elementos>0 && pagina<(elementos-1)){
+        pagina++
+        Exibir()
+    }
+    else{
+        alert("Não existe uma proxima pagina")
+    }
 }
 
 function Anterior() { 
